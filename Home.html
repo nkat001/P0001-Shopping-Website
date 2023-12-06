@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooming Dales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/logo.svg" width="450px" height="100px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="Images/cart.png">
+        <img src="Images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="c1">
+            <h1>Summer 2022 On Its Way!</h1>
+            <p><br>Stay home and shop online this summer!<br>A whole new collection launched to customers worldwide.</p>
+            <a href="Products.html" class="btn">Shop Now &#8594</a>
+        </div>
+        <div class="c2">
+            <img src="Images/background.jpg" height="600px">
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="featured">
+    <div class="sub-featured">
+        <div class="row">
+            <div class="c3">
+                <img src="Images/home-page-main-2.jpeg">
+            </div>
+            <div class="c3">
+                <img src="Images/home-page-main.jpeg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sub-featured">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="c4">
+            <img src="Images/p1.jpg" height="250px">
+            <h4>Men's Plain White Shirt</h4>
+            <p>$35.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p2.jpg" height="250px">
+            <h4>Men's Solid Classic Shirt</h4>
+            <p>$69.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p3.jpg" height="250px">
+            <h4>Women's Plain Satin Shirt</h4>
+            <p>$40.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p4.jpg" height="250px">
+            <h4>Women's Designer Bracelet</h4>
+            <p>$39.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="c4">
+            <img src="Images/p5.jpg" height="300px">
+            <h4>Women's Long Leather Jacket</h4>
+            <p>$79.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p6.jpg" height="300px">
+            <h4>Women's Plain Black Top</h4>
+            <p>$35.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p7.jpg" height="300px">
+            <h4>Men's Outer Jacket</h4>
+            <p>$89.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p8.jpg" height="300px">
+            <h4>Men's Solid Regular Shirt</h4>
+            <p>$55.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p12.jpg" height="300px">
+            <h4>Men's Full Black Suite</h4>
+            <p>$399.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p10.jpg" height="300px">
+            <h4>Designer Watch</h4>
+            <p>$179.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p9.webp" height="300px">
+            <h4>Nike Air Jordon Shoes</h4>
+            <p>$189.00</p>
+        </div>
+        <div class="c4">
+            <img src="Images/p11.jpg" height="300px">
+            <h4>Women's Long Laced Dress</h4>
+            <p>$119.00</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-c1">
+                <h3>Download Our App</h3>
+                <p>App compatible for Android and IOS</p>
+                <div class="app-logo">
+                    <img src="Images/google-play.png">
+                    <img src="Images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-c2">
+                <img src="Images/app.jpg" >
+                <p>Our purpose is to serve our customers in a more efficient manner while maintaining the best quality of products</p>
+            </div>
+            <div class="footer-c3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                </ul>
+            </div>
+            <div class="footer-c4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright 2022 - Blooming Dales</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+        }
+        else{
+                MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>

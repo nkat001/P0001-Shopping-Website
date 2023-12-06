@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | Blooming Dales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Oswald&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="cart.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/logo.svg" width="450px" height="100px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="Images/cart.png">
+        <img src="Images/menu-icon.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<section class="container content-section">
+    <h2 class="section-header">Men's Clothing</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Men's Plain White Shirt</span>
+            <img class="shop-item-image" src="Images/p1.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$35.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Men's Solid Classic Shirt</span>
+            <img class="shop-item-image" src="Images/p2.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$69.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Men's Outer Winter Jacket</span>
+            <img class="shop-item-image" src="Images/p7.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$89.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Men's Solid Regular Shirt</span>
+            <img class="shop-item-image" src="Images/p8.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$55.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section">
+    <h2 class="section-header">Women's Clothing</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Women's Plain Satin Shirt</span>
+            <img class="shop-item-image" src="Images/p3.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$40.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Women's Long Leather Jacket</span>
+            <img class="shop-item-image" src="Images/p5.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$79.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Women's Plain Black Top</span>
+            <img class="shop-item-image" src="Images/p6.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$35.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Women's Long Laced Dress</span>
+            <img class="shop-item-image" src="Images/p11.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$119.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section">
+    <h2 class="section-header">Others</h2>
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Nike Jordon Shoes</span>
+            <img class="shop-item-image" src="Images/p9.webp">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$199.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Women's Designer Bracelet</span>
+            <img class="shop-item-image" src="Images/p4.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$149.00</span>
+                <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Men's Designer Watch</span>
+            <img class="shop-item-image" src="Images/p10.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$129.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="shop-item">
+            <span class="shop-item-title">Women's Pale Brown Heels</span>
+            <img class="shop-item-image" src="Images/p13.jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$89.00</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-c1">
+                <h3>Download Our App</h3>
+                <p>App compatible for Android and IOS</p>
+                <div class="app-logo">
+                    <img src="Images/google-play.png">
+                    <img src="Images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-c2">
+                <img src="Images/app.jpg" >
+                <p>Our purpose is to serve our customers in a more efficient manner while maintaining the best quality of products</p>
+            </div>
+            <div class="footer-c3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                </ul>
+            </div>
+            <div class="footer-c4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright 2022 - Blooming Dales</p>
+    </div>
+</div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+        }
+        else{
+                MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
